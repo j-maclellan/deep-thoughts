@@ -54,7 +54,11 @@ function App() {
                   element={<Signup />}
                 />
                 <Route
-                  path="/profile/:username"
+                  path="/profile"
+                  element={<Profile />}
+                />
+                <Route 
+                  path='/profile/:username'
                   element={<Profile />}
                 />
                 <Route  
